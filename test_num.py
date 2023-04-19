@@ -9,4 +9,3 @@ def test_num():
 
 def resp():
     assert test_num == [5, 4, 3, 2, 1]
-    
