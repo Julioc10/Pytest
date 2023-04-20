@@ -1,5 +1,3 @@
-import pytest
-
 def test_num():
     if __name__ == '__main__':
     
