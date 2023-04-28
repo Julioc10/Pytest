@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.014" timestamp="2023-04-28T15:55:18.319437" hostname="Julios-MacBook-Pro.local"><testcase classname="tests.test_queijo_goiaba" name="test_brincadeira" time="0.000"><error message="failed on setup with &quot;file /Users/juliooliveira/workspace/pytest/tests/test_queijo_goiaba.py, line 3&#10;  def test_brincadeira(queijo):&#10;E       fixture 'queijo' not found&#10;&gt;       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory&#10;&gt;       use 'pytest --fixtures [testpath]' for help on them.&#10;&#10;/Users/juliooliveira/workspace/pytest/tests/test_queijo_goiaba.py:3&quot;">file /Users/juliooliveira/workspace/pytest/tests/test_queijo_goiaba.py, line 3
+  def test_brincadeira(queijo):
+E       fixture 'queijo' not found
+&gt;       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+&gt;       use 'pytest --fixtures [testpath]' for help on them.
+
+/Users/juliooliveira/workspace/pytest/tests/test_queijo_goiaba.py:3</error></testcase></testsuite></testsuites>
