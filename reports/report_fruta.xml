@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="6" time="0.035" timestamp="2023-04-28T16:52:45.168773" hostname="Julios-MacBook-Pro.local"><testcase classname="tests.test_frutas" name="test_banana" time="0.001"><failure message="AssertionError: assert 'mamao' == 'banana'&#10;  - banana&#10;  + mamao">def test_banana():
+&gt;       assert fruta() == 'banana'
+E       AssertionError: assert 'mamao' == 'banana'
+E         - banana
+E         + mamao
+
+tests/test_frutas.py:4: AssertionError</failure></testcase><testcase classname="tests.test_frutas" name="test_maca" time="0.000"><failure message="AssertionError: assert 'mamao' == 'maca'&#10;  - maca&#10;  + mamao">def test_maca():
+&gt;       assert fruta() == 'maca'
+E       AssertionError: assert 'mamao' == 'maca'
+E         - maca
+E         + mamao
+
+tests/test_frutas.py:7: AssertionError</failure></testcase><testcase classname="tests.test_frutas" name="test_pera" time="0.000"><failure message="AssertionError: assert 'mamao' == 'pera'&#10;  - pera&#10;  + mamao">def test_pera():
+&gt;       assert fruta() == 'pera'
+E       AssertionError: assert 'mamao' == 'pera'
+E         - pera
+E         + mamao
+
+tests/test_frutas.py:10: AssertionError</failure></testcase><testcase classname="tests.test_frutas" name="test_melao" time="0.000"><failure message="AssertionError: assert 'mamao' == 'melao'&#10;  - melao&#10;  + mamao">def test_melao():
+&gt;       assert fruta() == 'melao'
+E       AssertionError: assert 'mamao' == 'melao'
+E         - melao
+E         + mamao
+
+tests/test_frutas.py:13: AssertionError</failure></testcase><testcase classname="tests.test_frutas" name="test_mamao" time="0.000" /><testcase classname="tests.test_frutas" name="test_manga" time="0.000"><failure message="AssertionError: assert 'mamao' == 'manga'&#10;  - manga&#10;  + mamao">def test_manga():
+&gt;       assert fruta() == 'manga'
+E       AssertionError: assert 'mamao' == 'manga'
+E         - manga
+E         + mamao
+
+tests/test_frutas.py:19: AssertionError</failure></testcase></testsuite></testsuites>
