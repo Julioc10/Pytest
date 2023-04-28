@@ -1,0 +1,2 @@
+def brincadeira():
+    return 'queijo'
