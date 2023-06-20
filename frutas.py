@@ -1,6 +1,6 @@
 from random import randint
 
-frutas = randint(1, 5)
+frutas = 1
 
 def fruta():
     if frutas == 1:
