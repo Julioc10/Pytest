@@ -1,6 +1,7 @@
 def imc(): 
 
-    massa = int(input('Qual sua massa corporal: '))
+    print("Formato necessario. Peso: xx.xx Altura: x.xx")
+    massa = float(input('Qual seu peso: '))
     altura = float(input('Qual sua altura: '))
     
     imc_calc = massa / (altura * altura)
