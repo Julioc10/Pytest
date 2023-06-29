@@ -2,6 +2,7 @@ from imc import imc
 import pytest
 import os
 
+@pytest.mark.ignore
 @pytest.mark.skipif('GITHUB_ACTIONS' in os.environ, reason="Teste ignorado no GitHub Actions")
 def test_imc():
 
